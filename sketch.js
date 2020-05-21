@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,0,0);
+  background(26,222,211);
   spawnRain();
    
   drawSprites();
@@ -19,7 +19,7 @@ function spawnRain(){
     rain.scale = 0.5;
     rain.velocityY = 15;
 
-    rain.shapeColor = "green";
+    rain.shapeColor = color(237,11,109);
 
     rain.lifetime = 200;
 
